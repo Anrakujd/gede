@@ -1,0 +1,33 @@
+body {
+font-family: sans-serif;
+margin: 40px;
+}
+
+nav a{
+  transition: 0.3s;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold; 
+}
+
+.navbar{
+  background-color:#004466;
+  padding: 10px 20px;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li{
+display: inline;
+}
+
+nav a:hover{
+text-decoration: underline;
+color: #ffcc00;
+}
